@@ -1,0 +1,93 @@
+{ config, pkgs, lib, stable, rolling, ...}:
+{
+	nixpkgs.config.allowUnfree = true;
+	environment.systemPackages = with pkgs; [
+	#basics#############################################
+		vim
+		wget
+		git
+		zsh
+		dmenu
+		alacritty
+		pcmanfm
+		feh
+		ranger
+		pcre
+		brave
+		gnome.gucharmap
+		light
+		networkmanagerapplet
+		mtools
+		neovim
+		rofi
+		sxhkd
+		polybar
+		pavucontrol
+		sxiv
+		htop
+		powertop
+		emacs
+		mpv
+		dunst
+		maim
+		xclip
+		mpvc
+	#xorg##################################################
+		xorg.xcbutilimage
+		xorg.xcbutilrenderutil
+		libglvnd
+		xorg.libX11
+		xorg.libxcb
+		xorg.libXext
+		libdbusmenu
+	#devel#################################################
+		meson
+		ninja
+		gcc
+		cmake
+		rsync
+		pev
+		pkg-config
+		acpi
+		asciidoc
+		uthash
+		gcc-arm-embedded
+		binutils
+		bintools
+		dosfstools
+		nodePackages.npm
+		#bluez
+		#bluez-alsa
+		#bluez-tools
+		#alsaUtils
+		#pulseaudio-ctl
+		#pulseaudio
+		#libpulseaudio
+		
+	#blueman
+		
+		# X11
+		#xorg.xinit
+		#xorg.xorgserver
+		#xorg.xf86inputevdev
+		#xorg.xf86inputsynaptics
+		#xorg.xf86inputlibinput
+		#xorg.xf86videointel
+		#xorg.xf86videoati
+		#xorg.xf86videonouveau
+	#themes/icons##########################################
+		lxappearance
+		dracula-theme
+		gruvbox-dark-gtk
+		gruvbox-dark-icons-gtk
+		icon-slicer
+		pop-icon-theme
+		arc-icon-theme
+		numix-icon-theme
+		gnome-icon-theme
+		hicolor-icon-theme
+		sweet
+   ];
+
+}
+
