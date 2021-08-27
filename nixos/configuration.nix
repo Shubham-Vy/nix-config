@@ -1,14 +1,15 @@
 { config, pkgs, ... }:
 
 {
-	imports = 
-  [
+	imports = [
 		./hardware-configuration.nix
 		./wm.nix
 		./audio-pipewire.nix
 		./system.nix
 		./package.nix
 	];
+
+
 
  # Define a user account. Don't forget to set a password with ‘passwd’.
 	users.users.xd = {
@@ -19,3 +20,4 @@
 	system.stateVersion = "21.05";
 
 }
+
