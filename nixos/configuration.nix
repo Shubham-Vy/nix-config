@@ -7,6 +7,9 @@
 		./audio-pipewire.nix
 		./system.nix
 		./package.nix
+		./python.nix
+		./nvidia.nix
+		#./nvidia-only.nix
 	];
 
 

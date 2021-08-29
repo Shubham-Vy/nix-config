@@ -32,6 +32,7 @@
 		maim
 		xclip
 		mpvc
+		nvtop
 	#xorg##################################################
 		xorg.xcbutilimage
 		xorg.xcbutilrenderutil
@@ -53,28 +54,10 @@
 		uthash
 		gcc-arm-embedded
 		binutils
+		pciutils
 		bintools
 		dosfstools
 		nodePackages.npm
-		#bluez
-		#bluez-alsa
-		#bluez-tools
-		#alsaUtils
-		#pulseaudio-ctl
-		#pulseaudio
-		#libpulseaudio
-		
-	#blueman
-		
-		# X11
-		#xorg.xinit
-		#xorg.xorgserver
-		#xorg.xf86inputevdev
-		#xorg.xf86inputsynaptics
-		#xorg.xf86inputlibinput
-		#xorg.xf86videointel
-		#xorg.xf86videoati
-		#xorg.xf86videonouveau
 	#themes/icons##########################################
 		lxappearance
 		dracula-theme
